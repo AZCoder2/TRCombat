@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2341E00F1EB693CA006F8B86 /* DRL Theme Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341E00E1EB693CA006F8B86 /* DRL Theme Manager.swift */; };
 		237E4EFF1EB68C400095EBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E4EFE1EB68C400095EBE8 /* AppDelegate.swift */; };
 		237E4F011EB68C400095EBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E4F001EB68C400095EBE8 /* ViewController.swift */; };
 		237E4F041EB68C400095EBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237E4F021EB68C400095EBE8 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		237E4F091EB68C400095EBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237E4F071EB68C400095EBE8 /* LaunchScreen.storyboard */; };
 		237E4F141EB68C400095EBE8 /* CombatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E4F131EB68C400095EBE8 /* CombatTests.swift */; };
 		237E4F1F1EB68C400095EBE8 /* CombatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E4F1E1EB68C400095EBE8 /* CombatUITests.swift */; };
+		70C67071E6C930C4EC0C8183 /* Pods_Combat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54A059DDDE6FD4059DAE15C /* Pods_Combat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2341E00E1EB693CA006F8B86 /* DRL Theme Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DRL Theme Manager.swift"; sourceTree = "<group>"; };
 		237E4EFB1EB68C400095EBE8 /* Combat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237E4EFE1EB68C400095EBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237E4F001EB68C400095EBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		237E4F1A1EB68C400095EBE8 /* CombatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237E4F1E1EB68C400095EBE8 /* CombatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatUITests.swift; sourceTree = "<group>"; };
 		237E4F201EB68C400095EBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DAC95323E8A0F8099E71BE /* Pods-Combat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Combat/Pods-Combat.release.xcconfig"; sourceTree = "<group>"; };
+		7AF940821BA108924D980184 /* Pods-Combat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Combat/Pods-Combat.debug.xcconfig"; sourceTree = "<group>"; };
+		E54A059DDDE6FD4059DAE15C /* Pods_Combat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Combat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C67071E6C930C4EC0C8183 /* Pods_Combat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +84,13 @@
 		237E4EF21EB68C3F0095EBE8 = {
 			isa = PBXGroup;
 			children = (
+				2341E00E1EB693CA006F8B86 /* DRL Theme Manager.swift */,
 				237E4EFD1EB68C400095EBE8 /* Combat */,
 				237E4F121EB68C400095EBE8 /* CombatTests */,
 				237E4F1D1EB68C400095EBE8 /* CombatUITests */,
 				237E4EFC1EB68C400095EBE8 /* Products */,
+				D4FFE34D1108FBDDF557E209 /* Pods */,
+				36A288AC03D21E62E4038A47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,23 @@
 			path = CombatUITests;
 			sourceTree = "<group>";
 		};
+		36A288AC03D21E62E4038A47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E54A059DDDE6FD4059DAE15C /* Pods_Combat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4FFE34D1108FBDDF557E209 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF940821BA108924D980184 /* Pods-Combat.debug.xcconfig */,
+				52DAC95323E8A0F8099E71BE /* Pods-Combat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237E4F231EB68C400095EBE8 /* Build configuration list for PBXNativeTarget "Combat" */;
 			buildPhases = (
+				A7D8F5B9BC6A0BCA49C10070 /* [CP] Check Pods Manifest.lock */,
 				237E4EF71EB68C3F0095EBE8 /* Sources */,
 				237E4EF81EB68C3F0095EBE8 /* Frameworks */,
 				237E4EF91EB68C3F0095EBE8 /* Resources */,
+				4D2AA9BF91E06276A316CA30 /* [CP] Embed Pods Frameworks */,
+				2B3AE515A1EA2943EFCB1CD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +287,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B3AE515A1EA2943EFCB1CD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Combat/Pods-Combat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2AA9BF91E06276A316CA30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Combat/Pods-Combat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D8F5B9BC6A0BCA49C10070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		237E4EF71EB68C3F0095EBE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +342,7 @@
 			files = (
 				237E4F011EB68C400095EBE8 /* ViewController.swift in Sources */,
 				237E4EFF1EB68C400095EBE8 /* AppDelegate.swift in Sources */,
+				2341E00F1EB693CA006F8B86 /* DRL Theme Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +494,7 @@
 		};
 		237E4F241EB68C400095EBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF940821BA108924D980184 /* Pods-Combat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9494MA7F48;
@@ -428,6 +508,7 @@
 		};
 		237E4F251EB68C400095EBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DAC95323E8A0F8099E71BE /* Pods-Combat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9494MA7F48;
@@ -516,6 +597,7 @@
 				237E4F251EB68C400095EBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		237E4F261EB68C400095EBE8 /* Build configuration list for PBXNativeTarget "CombatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +606,7 @@
 				237E4F281EB68C400095EBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		237E4F291EB68C400095EBE8 /* Build configuration list for PBXNativeTarget "CombatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +615,7 @@
 				237E4F2B1EB68C400095EBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
